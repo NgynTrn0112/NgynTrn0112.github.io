@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Ricky Tran"
-  avatar           : "/assets/images/avatar.png"" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/avatar.png"
   bio              : "<i> UWA Master of Business Analytics </i>"
   location         : "Perth, WA"
   email            :
