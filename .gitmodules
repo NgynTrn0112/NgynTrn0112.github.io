@@ -1,0 +1,6 @@
+[submodule "_portfolio/JnJ_SocialMedia_analysis"]
+	path = _portfolio/JnJ_SocialMedia_analysis
+	url = https://github.com/NgynTrn0112/UWA_Project.git
+[submodule "UWA_Project"]
+	path = UWA_Project
+	url = https://github.com/NgynTrn0112/UWA_Project.git
