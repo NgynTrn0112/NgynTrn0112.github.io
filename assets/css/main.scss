@@ -7,3 +7,62 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.portfolio-logo-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.section-logo {
+  width: 32px;       /* Adjust the logo size */
+  height: 32px;
+  margin-right: 12px;
+}
+
+.section-title {
+  font-size: 32px;   /* Adjust the heading size */
+  font-weight: bold;
+  color: #333;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.portfolio-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.portfolio-card h3 a {
+  font-size: 18px; /* Title size */
+  font-weight: bold;
+//   color: #333;
+  text-decoration: none;
+}
+
+.portfolio-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.portfolio-card p {
+  font-size: 15px; /* Tool text size */
+  color: #555;
+}
+
+.portfolio-card .tool-badge {
+  display: inline-block;
+  background: #f7dada;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+

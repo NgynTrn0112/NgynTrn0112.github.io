@@ -1,0 +1,41 @@
+<div class="portfolio-section">
+
+  <!-- UWA Logo Section -->
+  <div class="portfolio-logo-section">
+    <img src="/assets/images/UWA_logo.webp" alt="UWA Project Logo" class="section-logo" />
+    <span class="section-title">UWA Project</span>
+  </div>
+
+  <div class="portfolio-grid">
+    {% assign uwa_projects = site.portfolio | where: "category", "uwa" %}
+    {% for project in uwa_projects %}
+      <div class="portfolio-card">
+        <img src="{{ project.header.teaser }}" alt="{{ project.title }}" />
+        <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+        <p>
+          Tools:
+          {% for tool in project.tools %}
+            <span class="tool-badge">{{ tool }}</span>
+          {% endfor %}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% assign personal_projects = site.portfolio | where: "category", "personal" %}
+  <h2>Personal Projects</h2>
+  <div class="portfolio-grid">
+    {% for project in personal_projects %}
+      <div class="portfolio-card">
+        <img src="{{ project.header.teaser}}" alt="{{ project.title }}" />
+        <h3><a href="{{ project.url }}">{{ project.title }}</h3>
+        <p>
+          Tools:
+          {% for tool in project.tools %}
+            <span class="tool-badge">{{ tool }}</span>
+          {% endfor %}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
