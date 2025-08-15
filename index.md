@@ -1,11 +1,12 @@
 ---
-title: "About"
+title: ""
+read_time: false
 layout: single
 header:
-  image: /assets/images/BenThanh.jpg
+  image: /assets/images/SaiGon_byNight.jpg
 ---
 
-## About Me  
+# About Me  
 
 Hi! I'm Ricky from Saigon, Vietnam — a data enthusiast, an inquisitive mind, and an advocate for decisions backed by evidence.  
 
@@ -14,3 +15,34 @@ I am a **Distinction** Master of Business Analytics graduate from *The Universit
 Data might be my thing, but I promise I can talk about more than just KPIs.  
 
 <img src="/assets/images/graduation.jpeg" style="width:100%; height:auto;" alt="Graduation Photo">
+
+
+---
+
+## 🎓 UWA Projects
+<div class="grid__wrapper">
+  {% assign uwa_projects = site.portfolio | where: "category", "uwa" %}
+  {% for project in uwa_projects %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+
+---
+
+## 🛠 Personal Projects
+<div class="grid__wrapper">
+  {% assign personal_projects = site.portfolio | where: "category", "personal" %}
+  {% for project in personal_projects %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+
+---
+
+## 📊 Dashboards
+<div class="grid__wrapper">
+  {% assign dashboards = site.portfolio | where: "category", "dashboard" %}
+  {% for project in dashboards %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
