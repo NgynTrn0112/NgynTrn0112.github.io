@@ -7,7 +7,7 @@ header:
 ---
 
 # About Me  
-[Portfolio](https://ngyntrn0112.github.io/portfolio/){: .btn .btn--info} 
+[Portfolio](/portfolio/){: .btn .btn--info}
 [LinkedIn](https://www.linkedin.com/in/nguyen-tran-7a03bb170/){: .btn .btn--info}
 {:. text-center}
 
