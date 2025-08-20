@@ -28,7 +28,7 @@
     {% for project in personal_projects %}
       <div class="portfolio-card">
         <img src="{{ project.header.teaser}}" alt="{{ project.title }}" />
-        <h3><a href="{{ project.url }}">{{ project.title }}</h3>
+        <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
         <p>
           Tools:
           {% for tool in project.tools %}
@@ -39,13 +39,13 @@
     {% endfor %}
   </div>
 
-    {% assign dashboard_projects = site.portfolio | where: "category", "dashboard" %}
+  {% assign dashboard_projects = site.portfolio | where: "category", "dashboard" %}
   <h2>📊 Dashboard</h2>
   <div class="portfolio-grid">
     {% for project in dashboard_projects %}
       <div class="portfolio-card">
         <img src="{{ project.header.teaser}}" alt="{{ project.title }}" />
-        <h3><a href="{{ project.url }}">{{ project.title }}</h3>
+        <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
         <p>
           Tools:
           {% for tool in project.tools %}
