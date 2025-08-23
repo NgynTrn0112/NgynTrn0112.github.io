@@ -24,34 +24,39 @@ header:
 ---
 
 ## Project Background
-<p style="text-align: justify">Johnson & Johnson (JnJ) is a global leader in healthcare industry, operating in 3 main segments-pharmaceuticals, medical services, and consumer health products. The brand is known for its long history of innovation and strong global presence. Although J&J demonstrates an active presence on various social media platforms, the strategy they employed is relatively simple and fails to capture the recent movement.
-<p style="text-align: justify"> This analytics project investigated the key factors influencing Facebook post engagement, focusing on variables such as posting time, content type, brand popularity, and the presence of special emotion reactions.
+Johnson & Johnson (JnJ) is a global leader in healthcare industry, operating in 3 main segments-pharmaceuticals, medical services, and consumer health products. The brand is known for its long history of innovation and strong global presence. Although J&J demonstrates an active presence on various social media platforms, the strategy they employed is relatively simple and fails to capture the recent movement.
+
+This analytics project investigated the key factors influencing Facebook post engagement, focusing on variables such as posting time, content type, brand popularity, and the presence of special emotion reactions.
+
 
 ---
 
 ## Executive Summary
-<p style="text-align: justify">A record of 891 posts ranging from Aug-2019 to Jul-2024 displays a sharp increase in engagement during the Covid-19 periods, though the figure returned to normal post-pandemic.
-<br> Posting at different period of the day can return statistically difference results.
-<br> Additionally, Link post-type generally underperformed, comparing to Video & Photo post-types.
+A record of 891 posts ranging from Aug-2019 to Jul-2024 displays a sharp increase in engagement during the Covid-19 periods, though the figure returned to normal post-pandemic.
+
+Posting at different period of the day can return statistically difference results.
+
+Additionally, Link post-type generally underperformed, comparing to Video & Photo post-types.
 
 ---
 
 ## Insight Deep-Dive
-
 ### Post Engagement
-<p style="text-align: justify">A Facebook post engagement can be measured by *Like, Comment, Share,* and *Emotional reaction*. However, as the *Like* action requires the least friction for the audience. The analysis will treat the number of *Like* as the indicator for the post performance.
+A Facebook post engagement can be measured by *Like, Comment, Share,* and *Emotional reaction*. However, as the *Like* action requires the least friction for the audience. The analysis will treat the number of *Like* as the indicator for the post performance.
+
 <div style="text-align: center;">
   <img src="/assets/images/JnJ_SocialMedia_analysis/engagement_cor.png" alt="Correlation of Social Engagement Indexes" style="max-width:80%; height:auto;">
 </div>
 
-<p style="text-align: justify">Furthermore, *Like* shows positive correlation with other indexes, especially *Share*.
-<p style="text-align: justify">We will further learn how the factors drive the engagement
+Furthermore, *Like* shows positive correlation with other indexes, especially *Share*.
+
+We will further learn how the factors drive the engagement
+
 <div style="text-align: center;">
   <img src="/assets/images/JnJ_SocialMedia_analysis/model.png" alt="Correlation of Social Engagement Indexes" style="max-width:80%; height:auto;">
 </div>
 
 ### Reactions
-<ul style="text-align: justify">
 
 - Majority of the reactions show a positive correlation with *Like*
 - The associations, however, are weak, with only *Love* has the mild correlation of 0.39

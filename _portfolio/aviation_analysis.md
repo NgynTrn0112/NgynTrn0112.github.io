@@ -22,21 +22,19 @@ header:
 4. [Recommendations](#recommendations)
 
 ---
-
 ## Project Background
-<p style="text-align: justify">The Australian air transport industry plays a vital role in connecting metropolitan cities and towns across the country. Our project analyses the flight records collected by Bureau of Infrastructure and Transport Research Economics (BITRE) to uncover the underlying patterns that airlines can leverage to streamline and improve their operations.
+The Australian air transport industry plays a vital role in connecting metropolitan cities and towns across the country. Our project analyses the flight records collected by Bureau of Infrastructure and Transport Research Economics (BITRE) to uncover the underlying patterns that airlines can leverage to streamline and improve their operations.
 
 ---
 
 ## Executive Summary
-<p style="text-align: justify">The aviation analysis of 20k records across 2020-2023 shows declines in cancellations and delays, indicating the industry stabilization post-pandemic. While small airports generally performed well, major airports like Sydney and Melbourne have displayed a significant variability in performance which could be attributed to the increasing of traffic.
+The aviation analysis of 20k records across 2020-2023 shows declines in cancellations and delays, indicating the industry stabilization post-pandemic. While small airports generally performed well, major airports like Sydney and Melbourne have displayed a significant variability in performance which could be attributed to the increasing of traffic.
 
 ---
 
 ## Insight Deep-Dive
 
 ### Performance of One-Way Routes
-<ul style="text-align: justify">
 
 - The industry achieved its **peak on-time performance** in **2020**.  
 - **2022** recorded the **worst performance**, primarily due to the **Covid-19 outbreak**.  
@@ -132,7 +130,6 @@ header:
 
 - **Adopt emerging technologies**:  
   - Use **digital twins** to simulate and optimise airport operations.  
-  - Explore **blockchain** and other digital tools to improve data-driven decision-making.  
-
+  - Explore **blockchain** and other digital tools to improve data-driven decision-making.
 
 
