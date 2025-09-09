@@ -1,6 +1,7 @@
 ---
 title: "Aviation Analysis"
-category: "uwa"
+layout: "archive
+category: "analysis"
 tools: ["Python"]
 excerpt: "An analysis of Australian aviation performance, highlighting operational performances and key recommendations for improvment."
 header: 

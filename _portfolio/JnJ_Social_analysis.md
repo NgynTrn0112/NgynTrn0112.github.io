@@ -1,6 +1,6 @@
 ---
 title: "J&J Social Media"
-category: "uwa"
+category: "analysis"
 tools:
   - R
 excerpt: "An analysis of Johnson & Johnson social media engagement"
