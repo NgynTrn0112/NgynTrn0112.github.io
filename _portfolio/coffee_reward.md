@@ -103,22 +103,22 @@ However, there is still outlier as 5 dollar *20-5 discount* offers generated onl
 <img src="/assets/images/coffee_reward/tenure_completionrate.png" alt="Completion Rate by Tenure" style="max-width:100%; height:auto;">
 
 ### Recommendations:
-1. Optimise Channel Mix:
+1. **:Optimise Channel Mix**:
     - **Leverage social channels for awareness**: The significant gap of informational offers highlights *social* as a more effective engagement driver compared to email. The Coar House should prioritise social media in the channel mix for time-sensitive campaigns.
     - **Resolve channel visibility gaps**: The low view rate suffer of 20-5 *discount* despite stronger completion rate suggests poor visibility on web/email channel. The brand should consider investigate integration of *personalised subject lines*, *send times*, and *segmented mailing list* to improve the customers' experience and engagement
-2. Refine Promotional Offer Strategy:
-    - Prioritise discount offers over BOGO: Discount promotions are delivering strong sales impact, indicating customer preference for flexible price savings over constrained product bundles. Future campaign should emphasise discount mechanics
-    - Balance accessibility with profit: Lower purchase thresholds drive higher completion. Design promotions with achievable thresholds to leverage the lift without eroding margin.
-3. Tailor Campaigns by Demographics:
-    - Age targeting: With completion peaking at 50 years, campaigns can be segmented into:
+2. **Refine Promotional Offer Strategy**::
+    - **Prioritise discount offers over BOGO**: Discount promotions are delivering strong sales impact, indicating customer preference for flexible price savings over constrained product bundles. Future campaign should emphasise discount mechanics
+    - **Balance accessibility with profit**: Lower purchase thresholds drive higher completion. Design promotions with achievable thresholds to leverage the lift without eroding margin.
+3. **Tailor Campaigns by Demographics**:
+    - **Age targeting**: With completion peaking at 50 years, campaigns can be segmented into:
         - Young (<35): prioritise flexible offers with low difficulty, epmhasising convenience, mobile-first channels, and lifestyle branding
         - Middle-age (35-55): prioritise value-driven offers
         - Old (>55): test simplified mechanics to counteract declining engagement
-    - Income segmentation: Since higher income customers are more likely to redeem, premium upsell campaigns (Ex: specialyy coffee, food bundle) can be targeted to this group
-    - Gender-driven personalisation: Female customers are 1.7x more likely to redeem offers, while the majority of the customer base is male.
+    - **Income segmentation**: Since higher income customers are more likely to redeem, premium upsell campaigns (Ex: specialyy coffee, food bundle) can be targeted to this group
+    - **Gender-driven personalisation**: Female customers are 1.7x more likely to redeem offers, while the majority of the customer base is male.
         - Optimise messaging for *Male* engagement by testing theme resonate better with them
         - Continue leveraging *Female* responsiveness through value-driven campaigns
         - Inclusivity efforts should be mainted by piloting tailored campaigns for *Other* gender
-    - Re-engage new customers: Low redemption among first-year members indicates onboarding weakness. Introduce more simple, frequent, highly visible offers to encourage habit formation
+    - **Re-engage new customers**: Low redemption among first-year members indicates onboarding weakness. Introduce more simple, frequent, highly visible offers to encourage habit formation
 
 <img src="/assets/images/coffee_reward/demographic_distribution.png" alt="Demographic Distribution" style="max-width:100%; height:auto;">
