@@ -51,8 +51,7 @@ We formulate the analysis to mainly answer the following areas:
 There are a total of **15k** advertisements sent throughout the period, with a view rate of **51.3%** and transaction rate of **28.5%**. In other words, roughly **4.3k** informational offers were followed up with a transaction.
 
 <div align="center">
-    <img src="assets/images/coffee_reward/informational_funnelchart.png" alt="Informational Funnel Chart">
-    <img src="assets/images/coffee_reward/informational_table.png" alt="Informational Summary Table" width=100%>
+    <img src="/assets/images/coffee_reward/informational_funnelchart.png" alt="Informational Funnel Chart">
 </div>
 
 Although, sharing similar number of offers, having slightly higher transaction/view statistic and longer expiry duration, *4-days* informational offers resulted in **800** transaction-followed offers gap to *3-days*, due to significant lower view rate **(40% to 62%)**.
@@ -62,6 +61,11 @@ The difference can partially be contributed to the different in engaging channel
 - 3-days: web, mobile, social
 
 **Social channel driver**: This suggest the channel mix plays a role in shaping customer awareness and responsiveness, with *social* potentially generating **broader reach** and almost **same level conversion**.
+
+<div>
+    <img src="/assets/images/coffee_reward/informational_table.png" alt="Informational Summary Table" >
+</div>
+
 ### Promotional Offers:
 Generally, promotional offers yield significant higher view and completion(transaction) rate.
 
@@ -69,7 +73,7 @@ A total of **61k** were published during the period, with **76.8%** view and **5
 
 However, there is still outlier as 5 dollar *20-5 discount* offers generated only **34.7%** of view but **44.6%** of completion rate. The contradicting higher completion rate and low yield can be contributed to communicating channels: web and email. Customers received the offers in-place without noticing the on-going promotion.
 
-<img src="assets/images/coffee_reward/promotional_table.png" alt="Promotional Summary Table" width=100%>
+<img src="/assets/images/coffee_reward/promotional_table.png" alt="Promotional Summary Table" style="max-width:100%; height:auto;">
 
 - **Discount offers act as a stronger sales driver**: Despite haring similar number of offers and having higher views, BOGO-offer generated **2.3k** fewer transactions. However, the lower view rate is mainly driven by low statistics of *20-5 discount* offers.
 - **Lower difficulty increases redemption likelihood**: Lower purchase value required(difficulty) achieved higher completion rate within same offer type. 
@@ -78,23 +82,23 @@ However, there is still outlier as 5 dollar *20-5 discount* offers generated onl
 ### Demographic Drivers:
 - **Completion Rate gradually increases as age reaching 50 and declines afterward**: Graph and Regression model suggest a Quadratic relation of completion rate and Age, while the model indicate the turning point at 50 years old.
 
-<img src="assets/images/coffee_reward/age_completionrate.png" alt="Completion Rate by Age" width=100%>
+<img src="/assets/images/coffee_reward/age_completionrate.png" alt="Completion Rate by Age" style="max-width:100%; height:auto;">
 
 - **Higher income drives higher completion rate**: Graph and Regression model indicates a positive association of Income and Redemption Likelihood. The model suggests that **2.7** times increase in *income* raises the *likelihood* by  *1.3* times.
 
-<img src="assets/images/coffee_reward/income_completionrate.png" alt="Completion Rate by Income" width=100%>
+<img src="/assets/images/coffee_reward/income_completionrate.png" alt="Completion Rate by Income" style="max-width:100%; height:auto;">
 
 - **Female customers are more likely to redeem the offers**:
     - Female customers are more likely to complete the offers by 1.7 times compared to male
     - Due to very few customers classified as Other gender, the different is not statistically significant
 
-<img src="assets/images/coffee_reward/gender_completionrate.png" alt="Completion Rate by Gender" width=100%>
+<img src="/assets/images/coffee_reward/gender_completionrate.png" alt="Completion Rate by Gender" style="max-width:100%; height:auto;">
 
 - **New customers are not engaging with the program**:
     - Completion Rate association with Tenure year follows an inverted U shape, peak at 2-3 year tenure with the total rate above 75%
     - The redemption likelihood of *new* customers is below 50%, with the total below 40%
 
-<img src="assets/images/coffee_reward/tenure_completionrate.png" alt="Completion Rate by Tenure" width=100%>
+<img src="/assets/images/coffee_reward/tenure_completionrate.png" alt="Completion Rate by Tenure" style="max-width:100%; height:auto;">
 
 ### Recommendations:
 1. Optimise Channel Mix:
@@ -115,4 +119,4 @@ However, there is still outlier as 5 dollar *20-5 discount* offers generated onl
         - Inclusivity efforts should be mainted by piloting tailored campaigns for *Other* gender
     - Re-engage new customers: Low redemption among first-year members indicates onboarding weakness. Introduce more simple, frequent, highly visible offers to encourage habit formation
 
-<img src="assets/images/coffee_reward/demographic_distribution.png" alt="Demographic Distribution" width=100%>
+<img src="/assets/images/coffee_reward/demographic_distribution.png" alt="Demographic Distribution" style="max-width:100%; height:auto;">
