@@ -7,6 +7,8 @@ header:
   image: "/assets/images/coffee_reward/coffee_background.jpg"
   teaser: "/assets/images/coffee_reward/coar_house_logo.png"
 ---
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/NgynTrn0112/BA_portfolio/tree/main/coffee_reward)
 ## Table of Contents
 1. [Project Background](#project-background)
 2. [Business Objectives](#business-objectives)
