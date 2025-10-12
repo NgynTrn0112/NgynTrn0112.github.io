@@ -1,5 +1,5 @@
 ---
-title: "Coffee Promotion Campaign"
+title: "Coffee Shop Membership Campaign Analysis"
 category: "analysis"
 tools: ["Python","PosgreSQL","GoogleSheet"]
 excerpt: "The mid-sized coffee shop chain launched a new membership reward program. An investigation to engagement performance and demographic drivors."
