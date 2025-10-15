@@ -7,7 +7,9 @@ header:
   image: "/assets/images/sales_pipeline/cover_png"
   teaser: "/assets/images/coffee_reward/cover_png"
 ---
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/NgynTrn0112/BA_portfolio/tree/main/Sales_pipeline)
 [View Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiYWIzZDkzYmYtNDc4Mi00OTI4LWJlNWQtNjAyYTUwOWQ4MjNlIiwidCI6IjRlMjA2ZGRmLTNkYzgtNGZlMC1hZGNkLWI5YTQzODY4YzU4YyJ9)
+
 ## Table of Contents
 1. [Project Background](#project_background)
 2. [Business Objectives](#business_objective)
