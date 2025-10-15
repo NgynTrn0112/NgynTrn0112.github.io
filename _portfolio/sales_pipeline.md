@@ -4,8 +4,8 @@ category: "dashboard"
 tools: ["Power BI"]
 excerpt: "A sales pipeline dashboard designed for a technological consultants"
 header: 
-  image: "/assets/images/sales_pipeline/cover_png"
-  teaser: "/assets/images/coffee_reward/cover_png"
+  image: "/assets/images/sales_pipeline/cover.png"
+  teaser: "/assets/images/coffee_reward/cover.png"
 ---
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/NgynTrn0112/BA_portfolio/tree/main/Sales_pipeline)
 [View Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiYWIzZDkzYmYtNDc4Mi00OTI4LWJlNWQtNjAyYTUwOWQ4MjNlIiwidCI6IjRlMjA2ZGRmLTNkYzgtNGZlMC1hZGNkLWI5YTQzODY4YzU4YyJ9)

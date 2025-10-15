@@ -37,9 +37,10 @@ The program funnel follows these stages:
 
 Given the competitive landscape of the coffee retail industry, The Coar House seeks to understand how these different types of offers influence customer behavior, such as view and transaction/completion rates. The metrics can be calculated:
 
-  $$\text{View rate} = \frac{\text{Number of viewed offers}}{\text{Number of offers sent}}$$
-  $$\text{Completion rate} = \frac{\text{Number of offers redeemed}}{\text{Number of offers sent}}$$
-  $$\text{Transaction rate} = \frac{\text{Number of offers followed by a transaction}}{\text{Number of offers sent}}$$
+<div align="center">
+    <img src="/assets/images/coffee_reward/formula.png">
+    <figcaption>Metrics Formula</figcaption>
+</div>
 
 This analysis will provide data-driven insights into the effectiveness of the membership program, helping the company refine its promotional strategy and improve customer loyalty.
 
@@ -186,5 +187,3 @@ The analysis is mainly carried out by dataframe manipulation and aggregation fun
 To perform Logistics Regression, we need independent variable to be binary. However, as previously mentioned, `events` is lacking a primary, posing a challenge of matching of each stage in the funnel. Although having deadline as a validation, there are cases customers redeemed and claimed the same offers simultaneously.
 
 We decide to use SQL to create the desired data set. The idea is to use SQL window function ROW_NUMBER() to partition the data by `customer_id` and `offer_id`. We, then, join the mutated `received` and `completed`by matching same `customer_id`, `offer_id` and the order. For more detail, please view [SQL script](!https://github.com/NgynTrn0112/BA_portfolio/blob/main/coffee_reward/sql_Tablegeneration.txt) for more details.
-
-#### Descriptive
