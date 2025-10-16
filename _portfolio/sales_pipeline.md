@@ -8,7 +8,7 @@ header:
   teaser: "/assets/images/sales_pipeline/cover.png"
 ---
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/NgynTrn0112/BA_portfolio/tree/main/Sales_pipeline)
-[View Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiYWIzZDkzYmYtNDc4Mi00OTI4LWJlNWQtNjAyYTUwOWQ4MjNlIiwidCI6IjRlMjA2ZGRmLTNkYzgtNGZlMC1hZGNkLWI5YTQzODY4YzU4YyJ9)
+[![View Dashboard](https://img.shields.io/badge/PowerBI-View_Dashboard-F2C811)](https://app.powerbi.com/view?r=eyJrIjoiYWIzZDkzYmYtNDc4Mi00OTI4LWJlNWQtNjAyYTUwOWQ4MjNlIiwidCI6IjRlMjA2ZGRmLTNkYzgtNGZlMC1hZGNkLWI5YTQzODY4YzU4YyJ9)
 
 ## Table of Contents
 1. [Project Background](#project_background)
